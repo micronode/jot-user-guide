@@ -32,9 +32,10 @@ Jot4j uses three (3) Global Search Indexes to support data retrieval. These GSIs
 * GSI3 - Indexed by calendar component
 
 ### Jot4j Commands
-Jot4j used the Command pattern to support operations on Mapper objects. The following commands are supported:
+Jot4j used the Command pattern to support operations on DynamoDB tables. Commands generally fit into two categories: a _Mapper command_ uses Mapper objects to update data (e.g. Create and Update commands), whilst _Table commands_ are used to directly manipulate a DynamoDB table (e.g. Delete commands).
 
-* CreateCalendar - create a new calendar definition
-* UpdateCalendar - update the properties of an existing calendar definition
-* DeleteCalendar - delete an existing calendar
-* 
+Commands may also support batch operations whereby multiple entities may be updated in a single call, resulting in improved performance.
+
+### Filter Queries
+Jot4j supports querying via iCal4j filter expressions, which provide a query language for filtering iCalendar objects.
+

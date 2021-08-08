@@ -22,3 +22,4 @@ nav:
   - Introduction: index.md
   - JOT API: jotapi.md
   - Jot4j: jot4j.md
+  - Jot Web Components: jwc.md
