@@ -1,0 +1,24 @@
+site_name: JOT User Guide
+site_url: https://mnode.org/jot-user-guide/
+theme:
+  name: material
+  favicon: images/favicon.png
+  logo: images/logo-48.png
+repo_url: https://github.com/micronode/jotapi
+repo_name: micronode/jotapi
+google_analytics:
+  - UA-402774-10
+  - auto
+extra:
+  disqus: jot
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/benfortuna
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/benfortuna
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/micronode
+nav:
+  - Introduction: index.md
+  - JOT API: jotapi.md
+  - Jot4j: jot4j.md
