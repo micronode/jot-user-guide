@@ -19,8 +19,10 @@ extra:
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/micronode
 nav:
-  - Introduction: index.md
-  - JOT API: jotapi.md
-  - Jot4j: jot4j.md
-  - Jot Web Components: jwc.md
-  - Calendar: calendar.md
+  - Home:
+    - Introduction: index.md
+    - JOT API: jotapi.md
+    - Jot4j: jot4j.md
+    - Jot Web Components: jwc.md
+  - Resources:
+    - Calendar: resources/calendar.md
