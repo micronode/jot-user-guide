@@ -3,11 +3,11 @@ site_url: https://mnode.org/jot-user-guide/
 theme:
   name: material
   favicon: images/favicon.png
-  logo: images/logo-48.png
+  logo: images/1373232.png
 repo_url: https://github.com/micronode/jotapi
 repo_name: micronode/jotapi
 google_analytics:
-  - UA-402774-10
+  - UA-402774-13
   - auto
 extra:
   disqus: jot
