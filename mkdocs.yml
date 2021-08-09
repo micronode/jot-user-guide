@@ -21,6 +21,6 @@ extra:
 nav:
   - Introduction: index.md
   - JOT API: jotapi.md
-    -  Calendar: calendar.md
   - Jot4j: jot4j.md
   - Jot Web Components: jwc.md
+  - Calendar: calendar.md
